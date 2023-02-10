@@ -3,6 +3,8 @@ const Note = require('../models/Note')
 const asyncHandler = require('express-async-handler')
 const bcrypt = require('bcrypt')
 
+// ALL ENDPOINTS TESTED WITH INSOMNIA
+
 // @desc Get all users
 // @route GET /users
 // @access Private
